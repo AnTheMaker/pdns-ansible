@@ -1,7 +1,7 @@
 ---
 
 scenario:
-  name: pdns-45
+  name: pdns-47
 
 driver:
   name: docker
@@ -87,7 +87,7 @@ verifier:
   directory: ../resources/tests/all
   additional_files_or_dirs:
     # path relative to 'directory'
-    - ../repo-45/
+    - ../repo-47/
     - ../backend-sqlite/
     - ../backend-mysql/
     - ../systemd-override/
